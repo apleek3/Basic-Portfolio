@@ -1,9 +1,9 @@
 /* Assignment 1 Styling Notes:
    * For heading fonts use `font-family: 'Georgia', Times, Times New Roman, serif;`.
    * For all other fonts use `'Arial', 'Helvetica Neue', Helvetica, sans-serif;`.
-   * The entire content and the main section content area is `960px` wide.
+   * The entire content and the main section content area is `960px` wide. */
 
-*/
+
 h1, h2, h3, h4, h5, h6 {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
@@ -17,8 +17,10 @@ body {
     margin:auto;
 }
 
-/* Next is code dedicated to duplicating the look of the example page:*/
+/*----------- Next is code dedicated to duplicating the look of the example page: ----------------*/
 
+
+/*---- Here's some styling for the buttons ----*/
 .right {
     float: right;
     padding: 10px;
@@ -29,8 +31,24 @@ body {
     padding: 10px;
 }
 
+.home {
+    .button {
+        background-color: #4aaaa5;
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: default;
+    
+}
 
-/*-----------Coding for replicating the footer------------*/
+
+
+/*---- Now some coding for replicating the look of the footer----*/
 
 .footer {
     position: fixed;
@@ -58,9 +76,6 @@ body {
     padding-left: 10px;
     padding-right: 10px;
 }
-
-
-
 
 
 /*
