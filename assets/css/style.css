@@ -16,7 +16,11 @@
 
 /*----------- Next is code dedicated to duplicating the look of the example page: ----------------*/
 
-
+html, body {
+    background-color: #888888;
+    height: 100%;
+    width: 100%;
+}
 
 h1, h2, h3, h4, h5, h6 {
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -62,6 +66,17 @@ img {
     border-color: #dddddd;
 }
 
+div {
+    overflow: auto;
+}
+
+div.content {
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 10px #888888;
+    margin: auto;
+    background-color: inherit;
+}
 
 
 
@@ -98,6 +113,11 @@ img {
     overflow: hidden;
     background-color: #ffffff;
     padding: 20px 10px;
+    /* Some borders for experimentaiton*/  
+    border: 1px solid;
+    box-shadow: 5px 10px #888888;
+    margin: auto;
+    background-color: inherit;
    
 }
 
@@ -118,6 +138,7 @@ img {
     font-weight: bold;
     background-color: #4aaaa5;
     color: white;
+    
 
 }
 
@@ -126,10 +147,12 @@ img {
     color: black;
 }
 
+/* --------------------Maybe use this later to show what webpage we're keyed up on----------------------------------
 .header a.active {
-    background-color: dodgerblue;
+    background-color: #4aaaa5;    <--or some other "like teal" color to show as active
     color: white;
 }
+*/ 
 
 .header-right {
     float: right;
@@ -145,6 +168,7 @@ img {
     float: none;
   }
 }
+
 
 /*---- Now some coding for replicating the look of the footer----*/
 
