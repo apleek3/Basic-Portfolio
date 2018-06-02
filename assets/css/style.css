@@ -29,21 +29,66 @@
       
 }
 
-.header {
+
+.background-header {
     overflow: hidden;
     background-color: #ffffff;
     padding: 30px 10px;
     border-bottom: 2.5px solid;
     border-color: #cccccc;
-    margin: 0px 0px 0px 0px;
+    margin: 0 auto;
     background-color: white;
-    position: relative;
-    top: -10px;
-    left: -10px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
     right: 0px;
     width: 100%;
     height: 40px;
+    z-index: -1;
+       
+}
+
+.header {
+    overflow: hidden;
+    background-color: #ffffff;
+    padding: 30px 0px;
+    border-bottom: 2.5px solid;
+    border-color: #cccccc;
+    margin: 0 auto;
+    background-color: white;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    width: 100%;
+    height: 40px;
+    max-width: 1005px;
+    z-index: 5;
    
+}
+
+/*
+.buttons {
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+}
+*/
+
+.header a.logo {
+    font-size: 32px;
+    font-weight: bold;
+    background-color: #4aaaa5;
+    color: white;
+    position: absolute;
+    top: 0px;
+    float: left;
+    width: 300px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+        
 }
 
 .header a {
@@ -54,30 +99,9 @@
     text-decoration: none;
     font-size: 18px; 
     line-height: 25px;
-   
-}
-
-.header a.divider {
-    border-style: solid;
-    border-width: 0px 1px 0px 1px;
-    border-color: #cccccc;
-}
-
-.header a.logo {
-    font-size: 32px;
-    font-weight: bold;
-    background-color: #4aaaa5;
-    color: white;
-    position: absolute;
-    top: 0px;
-    left: 285px;
-    float: left;
-    width: 300px;
-    height: 100px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-        
+    color: #777777;
+    
+     
 }
 
 .header a:hover {
@@ -88,8 +112,20 @@
 
 .header-right {
     position: relative;
-    left: 1075px;
+    width: 250px;
+    float: right;
+    
+  
 }
+
+.header a.divider {
+    border-style: solid;
+    border-width: 0px 1px 0px 1px;
+    border-color: #cccccc;
+}
+
+
+
 
 
 /* --------------------Maybe use this later to show what webpage we're keyed up on----------------------------------
@@ -147,8 +183,8 @@ p {
 }
 
 .maxwidth {
-    max-width: 960px;
-    margin:auto;
+    max-width: 919px;
+    
 }
 
 img {
@@ -168,16 +204,24 @@ div {
     overflow: auto;
 }
 
+.centerstage{
+    width: 100%;
+    position: absolute;
+    left: 0;
+    margin-top: -200px;
+    top: 50%;
+}
 div.content {
     border: 1px solid;
     border-color: lightgrey;
     padding: 15px 40px 15px 40px;
-    margin: auto;
     background-color: white;
-    position: absolute;
-    top: 150px;
-    left: 282px;
-     /*margin: 150px 150px 150px 150px   -----> was a good option for keeping the windo visible */
+    position: relative;
+    z-index: -1;
+    margin: 0 auto;
+      
+  
+     /*margin: 150px 150px 150px 150px   ----- WAS a good option for keeping the windo visible */
 }
 
 
