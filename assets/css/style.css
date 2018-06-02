@@ -255,6 +255,20 @@ div.content {
 }
 
 
+
+/* Now some coding for the OTHER pages --- starting with the contact.html page */
+/*
+input[type=text] {
+    width: 100%;
+    padding: 12px 12px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+#message { 
+    height: 75%;
+}
+*/
 /*
    ### Bonus
 1. Make my pages more sophisticated by adding style to text links, to image links, and to buttons for when a user hovers their cursor over them. A CSS hover tutorial can be found [here](http://www.codeitpretty.com/2013/06/how-to-use-css-hover-effects.html). 

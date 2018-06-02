@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 
 
-<html>
+<html lang="en">
 
 
     <head>
@@ -9,52 +9,56 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title>Alex Lee's Basic Portfolio</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+        <!-- I learned about using "reset well after starting this project. I will be sure to use it to start off my position in the future-->
+        <!-- <link rel="stylesheet" type="text/css" media="screen" href="C:/Users/aplee/Basic-Portfolio/assets/css/reset.css" /> --> 
+        <link rel="stylesheet" type="text/css" media="screen" href="C:/Users/aplee/Basic-Portfolio/assets/css/style.css" />
         <script src="main.js"></script>
     </head>
 
 
 
-        <body>
+        <body class="about">
 
-            <div>
-                <button>
-                   Alexander Lee
-                </button>
-                            
-                <button>
-                    <a href= "file:///C:/Users/aplee/Basic-Portfolio/about.html">About</a>
-                </button>
-
-                <button>
-                    Portfolio
-                </button>
-
-                <button>
-                    Contact
-                </button>
-            </div>
-
-            <div>
-                <h1>
-                    About Me
-                </h1>
-                <img src= "C:\Users\aplee\Basic-Portfolio\assets\profile.png" alt= "Alex Lee" width= "200" height= "200">
-                <p>
-                    Born in Oakland, California and raised in the East Bay, I'm a UC Davis Graduate that has varied experience as a Supervisor, Manager, Police Officer, Paramedic, Teacher, and Education Developer. 
-                </p>
+            <div class="background-header">
+             </div>
+            <div class="header">
                 
-                <p>
-                    While my coding experience is relatively new I'm currently seizing the opportunity to express a unique perspective of efficacy and creativity in my coding projects.
-                </p>
-
-                <p>
-                    I'm excited to help others use tech to express themselves and find a voice that exists beyond words, websites, or wonderment. 
-                </p>
+                <a href="#home" class="logo">Alexander Lee</a>
+                
+                    <div class="header-right">
+                        <a href="#about">About</a>  <!--Save for later: class="active" h-->
+                        <a href="#portfolio" class="divider">Portfolio</a>
+                        <a href="#contact">Contact</a>
+                   
+                </div>
             </div>
+              
+            <div class="centerstage">
+                <div class="content maxwidth about">
+                     <h1>
+                          About Me
+                     </h1>
+             
+            
+                <hr> <!--Thematic Breaks. who knew.-->
+                 <br>
 
-            <div>
-                <p>Copyright&copy; </p>
+                    <p> <img src= "C:/Users/aplee/Basic-Portfolio/assets/images/profile.png" alt= "Alex Lee" >
+                        I'm Alex. I have backgrounds in Pre-Hopsital Medicine, In-Hospital Patient Care Services, Standby Event Emergency Services, Security/Event Management, Education, and Law Enforcement. I began to get involved in technology in 2017 as I was serving as an educator for EMTs and Paramedics. I use principles from the National Association of EMS Educators to teach cognitive, affective, and kinesthetic skills with a strong emphasis on professional growth and adapting to new technologies. 
+                   </p>
+
+                    <p>
+                        I graduated from UC Davis in 2008, Sacramento Police Academy in 2010, University of Nevada: Reno - REMSA Paramedic Program in 2015, and I'm currently attending UC Davis Extension's Coding Boot Camp with an expected graduation date of November 17, 2018.
+                   </p>
+                   
+                    <p>
+                        I live and work in Sacramento where I enjoy teaching basic marksmanship, hiking, fishing, and finding new places to eat ice cream with friends.
+                    </p>
+                </div>
+             </div>
+
+            <div class="c padding footer border">
+                <span>Copyright &copy;</span>
             </div>
 
         </body>
