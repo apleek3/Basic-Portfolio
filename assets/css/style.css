@@ -256,6 +256,7 @@ div.content {
     text-align: center;
     font-size: 12px;
     clear: both;
+    z-index: 100;
 }
 
 .border {
