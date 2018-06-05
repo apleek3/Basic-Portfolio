@@ -350,7 +350,7 @@ Subtract 200px each
   
 }
 
-#portfoliotext {
+.portfoliotext {
     color: white;
     font-size: 24px;
     font-family: 'Times New Roman', Times, serif;
@@ -370,7 +370,7 @@ Subtract 200px each
     padding: 0 10px;
     width:255px;
     overflow: hidden;
-  
+   z-index: 10;
 }
 
 
